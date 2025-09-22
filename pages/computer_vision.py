@@ -41,6 +41,6 @@ if st.button("解析をする"):
             "https://cloud.google.com/apis/design/errors"
         )
 
-        # 検出されたラベルを表示
-        for label in labels:
-            st.write(label.description)
+    # 検出されたラベルを表示
+    for label in labels:
+        st.write(label.description)
